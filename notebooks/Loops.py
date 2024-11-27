@@ -8,33 +8,33 @@
 # Suppose we wanted to add 1 to every value in a list. 
 # 
 
-# In[73]:
+# In[2]:
 
 
-my_ages = [45, 23, 80]
+my_ages = [45, 23, 79]
 
 
-# In[74]:
+# In[3]:
 
 
 print(my_ages[0]+1)
 
 
-# In[75]:
+# In[4]:
 
 
-print(my_ages[1]+1)
+print(my_ages[1]+2)
 
 
 # This is obviously not efficient, even for short lists. We can instead use a `for` loop
 # 
 # A `for` loop starts with the *keyword* for, followed by the name of the variable that will be changed with every loop, then `in` and the name of the variable that you want to loop through (*iterator variable*) and a colon `:`. Code is then written in an indented block (4 spaces or a tab in front of each line in the block)
 
-# In[76]:
+# In[5]:
 
 
 for age in my_ages:
-    print(age)
+    print(age, my_ages)
 
 
 # In[77]:
