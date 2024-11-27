@@ -8,10 +8,10 @@
 # Suppose we wanted to add 1 to every value in a list. 
 # 
 
-# In[2]:
+# In[6]:
 
 
-my_ages = [45, 23, 79]
+my_ages = [45, 23, 81]
 
 
 # In[3]:
